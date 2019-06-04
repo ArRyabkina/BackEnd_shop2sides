@@ -1,0 +1,49 @@
+body {
+	background-image: url('images/bg.jpg');
+	background-size: 100%;
+}
+
+.box-games {
+	height: 500px;
+	border-bottom: 1px solid grey;
+}
+
+.logo-img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.trash-img {
+	position: fixed;
+	top: 87%;
+	left: 74%;
+	width: 10%;
+	z-index: 99;
+}
+
+.insert-good {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 190px;
+	z-index: 99;
+    box-shadow: -10px 0 50px rgba(6, 17, 75, 0.85);
+}
+
+.goods {
+	margin-top: 190px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 180px;
+	box-shadow: 10px 10px 1000px rgba(8, 18, 72, 0.38);
+    z-index: 99;
+    background-image: url('images/header.jpg');
+    background-size: 100%;
+}
